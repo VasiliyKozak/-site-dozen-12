@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Ресторан</title>
+</head>
+<body>
+
+<div class='header'>
+    <div class='container'>
+        <div class='header-line'>
+            <div class='header-logo'>
+                <img src="logo.png" alt="">
+            </div>
+
+            <div class='nav'>
+                <a class='nav-item' href="index.html">ГЛАВНАЯ</a>
+                <a class='nav-item' href="menu.html">МЕНЮ</a>
+                <a class='nav-item' href="aboutUs.html">О НАС</a>
+                <a class='nav-item' href="@">БРОНЬ</a>
+            </div>
+
+            <div class='cart'>
+                <a href="cart.html">
+                    <img class='cart-img' href="cart.html" src="cart.png" alt="">
+                </a>
+            </div>
+
+            <div class='phone'>
+                <div class='phone-holder'>
+                    <div class='phone-img'>
+                        <img src="phone.png" alt="">
+                    </div>
+
+                    <div class='number'><a class='num' href='#'>+999-888-76-54</a></div>
+                </div>
+
+                <div class='phone-text'>
+                    Свяжитесь с нами для <br> бронирования
+                </div>
+            </div>
+
+            <div class='btn'>
+                <a class='button' href='#'>ЗАКАЗ СТОЛИКА</a>
+            </div>
+        </div>
+    </div>
+
+   <!--<audio id='audio' autoplay="autoplay" src="https://catter.ru/music.mp3" controls></audio>
+
+
+
+     <button type='button' id='btnka'>Play</button>-->
+
+<script src='app.js'>
+
+</script>
+</div>
+<div style=" height: 500px; font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;">
+    <header style="background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;">
+       <h1>Корзина</h1>
+   </header>
+   <main style="padding: 20px;">
+       <div style="border: 1px solid #ccc;
+       padding: 20px;
+       border-radius: 5px;
+       background-color: #f9f9f9;" class="cart">
+           <h2 style=" margin-top: 0;">Ваш заказ</h2>
+           <ul style="list-style: none;
+           padding: 0;" class="cart-items">
+               <!-- Список выбранных блюд -->
+               <li style="display: flex;
+               justify-content: space-between;
+               align-items: center;
+               margin-bottom: 10px;" class="cart-item">
+                   <span style="flex: 1;" class="item-name">Пицца</span>
+                   <span class="item-price">$10.99</span>
+                   <button style=" background-color: #ff0000;
+                   color: #ffffff;
+                   padding: 8px 16px;
+                   border-radius: 4px;
+                   border: none;
+                   outline: none;
+                   cursor: pointer;" class="remove-item">Удалить</button>
+               </li>
+               <!-- Другие элементы корзины добавляются аналогично -->
+           </ul>
+           <div style="margin-top: 20px;
+           text-align: right;" class="cart-total">
+               <strong style="font-weight: bold;" class="cart-total strong">Итого:</strong>
+               <span style="font-weight: bold;
+               color: #ff6600; 
+               font-size: 1.2em;" class="total-price">$10.99</span>
+           </div>
+           <button  class="clear-cart">Очистить корзину</button>
+           <button class="checkout">Оформить заказ</button>
+       </div>
+   </main>
+</div>
+</body>
+</html>
